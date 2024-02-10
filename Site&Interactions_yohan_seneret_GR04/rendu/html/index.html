@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Slider</a></li>
+          <li><a href="formulaire.html">Formulaire</a></li>
+          <li><a href="tabs.html">Tabs</a></li>
+          <img src="../image/moon.png" id="icon">
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="swiper mon-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-restauration">
+            <p class="subtitle">JPO IIM</p>
+            <p class="title">Restauration</p>
+          </div>
+          <div class="swiper-slide slide-cafet">
+            <p class="subtitle">JPO IIM</p>
+            <p class="title">Cafet</p>
+          </div>
+          <div class="swiper-slide slide-salles">
+            <p class="subtitle">JPO IIM</p>
+            <p class="title">Salles de PC</p>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../javascript/main.js"></script>
+  </body>
+</html>

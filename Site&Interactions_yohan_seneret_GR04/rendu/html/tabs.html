@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <link rel="stylesheet" href="../css/tabs.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Slider</a></li>
+          <li><a href="formulaire.html">Formulaire</a></li>
+          <li><a href="tabs.html">Tabs</a></li>
+          <img src="../image/moon.png" id="icon" />
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <ul class="tabs">
+        <li data-tab-target = "#JV" class=" active tab">JV</li>
+        <li data-tab-target = "#CDI" class="tab">CDI</li>
+        <li data-tab-target = "#MODE" class="tab">3D</li>
+        <li data-tab-target = "#CD" class="tab">CD</li>
+        <li data-tab-target = "#CDEB" class="tab">CDEB</li>
+      </ul>
+
+      <div class="tab-content">
+
+        <div id="JV" data-tab-content class="active">
+          <h1 class="title" >JV</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div id="CDI" data-tab-content>
+          <h1 class="title">CDI</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div id="MODE" data-tab-content>
+          <h1 class="title">3D</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div id="CD" data-tab-content>
+          <h1 class="title" >CD</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+
+        <div id="CDEB" data-tab-content>
+          <h1 class="title">CDEB</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="../javascript/tabs.js"></script>
+  </body>
+</html>
